@@ -1,0 +1,66 @@
+# JavaScript, React Native, and Expo
+node_modules/
+.expo/
+.expo-shared/
+.metro-health-check*
+web-build/
+dist/
+coverage/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dart and Flutter
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+
+# Android generated files and credentials
+.gradle/
+android/.gradle/
+android/local.properties
+android/app/build/
+*.apk
+*.aab
+*.keystore
+*.jks
+key.properties
+
+# iOS and macOS generated files
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+DerivedData/
+*.ipa
+*.xcarchive
+*.mobileprovision
+Podfile.lock
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.cer
+
+# IDE and operating system
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and local test artifacts
+*.log
+test-results/
+screenshots/
